@@ -12,7 +12,7 @@ Welcome to the Poem Generator Flask App! This application uses an AI model to ge
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/OpenAI-Poem-Generator.git
+git clone https://github.com/Harshit-shrivastav/OpenAI-Poem-Generator.git
 ```
 2. Install dependencies
 ```bash
