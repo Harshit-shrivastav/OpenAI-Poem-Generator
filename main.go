@@ -23,7 +23,7 @@ func main() {
 }
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
-    htmlContent, err := ioutil.ReadFile("index.html")
+    htmlContent, err := ioutil.ReadFile("/templates/index.html")
     if err != nil {
         http.Error(w, "Internal Server Error", http.StatusInternalServerError)
         return
@@ -34,7 +34,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 
 func generateHandler(w http.ResponseWriter, r *http.Request) {
     title := r.FormValue("prompt")
-    prompt := "You are a very good and creative poet, Generate a poem on title"+title+" in case if you can't generate the poem then reply 'I can't dot it' nothing else."
+    prompt := "You are a very good and creative poet, Generate a poem on title"+title+" in case if you can't generate the poem then reply 'I can't it' nothing else."
     if title == "" {
         http.Error(w, "Title cannot be empty", http.StatusBadRequest)
         return
