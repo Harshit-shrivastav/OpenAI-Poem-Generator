@@ -30,8 +30,10 @@ python main.py
 
 Navigate to the home page and enter a title for your poem. You can also select a language for your poem. Click on the 'Generate' button and voila! Your poem is ready!
 
-## ![Golang Logo](https://golang.org/doc/gopher/gophercolor.png) Looking for Go Version with Gemini API
-Checkout [GoLang](https://github.com/Harshit-shrivastav/OpenAI-Poem-Generator/tree/GoLang) branch of this repo.
+![Golang Logo](https://golang.org/doc/gopher/gophercolor.png) 
+
+Looking for Go Version with Gemini API? Checkout [GoLang branch](https://github.com/Harshit-shrivastav/OpenAI-Poem-Generator/tree/GoLang) of this repo.
+
 
 ## 📜 License
 
