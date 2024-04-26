@@ -12,8 +12,8 @@ This repository contains a simple Go web server that serves an HTML page and pro
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/go-poem-generator.git
-   cd go-poem-generator
+   git clone https://github.com/Harshit-shrivastav/OpenAI-Poem-Generator.git
+   cd OpenAI-Poem-Generator
    ```
 
 2. **Set up your API key for the language model**:
@@ -26,7 +26,7 @@ This repository contains a simple Go web server that serves an HTML page and pro
 3. **Build and run the Go server**:
    ```bash
    go build
-   ./go-poem-generator
+   ./OpenAI-Poem-Generator
    ```
 
 4. **Access the web page**:
